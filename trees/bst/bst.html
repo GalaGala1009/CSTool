@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <title>Binary Search Tree</title>
+    <link rel="stylesheet" href="styleBST.css"/> <!--css for tree.html-->
+</head>
+<body>
+    <h1>Binary Search Tree</h1>
+    <nav class="navbar">
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../../sorting/sorting.html">Sorting</a></li>
+            <li><a href="bst.html">BST</a></li>
+        </ul>
+    </nav>
+    <br>
+    <div id="main">
+        <canvas id="myCanvas"></canvas>
+        <br>
+        <!--<button onclick="insert()">insert</button>-->
+        <div id="button">
+            <div id = "div1">
+                <form id="insert">
+                    <input type="number" id="val" name = "val" placeholder="enter node value 1-99" >
+                    <input type="submit" value="insert">
+                </form>
+            </div>
+            <div id = "div2">
+                <form id="delete">
+                    <input type="number" id="val2" name = "val2" placeholder="enter node value 1-99">
+                    <input type="submit" value="delete">
+                </form>
+            </div>
+        </div>
+        <br>
+        <div id = "div3">
+            <button onclick="randomBST()">Random Insert BST</button>
+        </div>
+    </div>
+
+    <script src="../../math.js"></script>
+    <script src="binarySearchTree.js"></script>
+    <script src="node.js"></script>
+    <script src="scriptBST.js"></script>
+</body>
+</html>

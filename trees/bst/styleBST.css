@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+}
+
+body{
+    margin: 0px;
+}
+
+#main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+#myCanvas{
+    border-style: solid;
+}
+
+#div1{
+    display: inline-block;
+}
+#div2{
+    display: inline-block;
+}
+
+/* css for navbar */
+.navbar ul{
+    list-style-type: none;
+    background-color: #2f1f89;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    /*display: inline-flex;*/
+}
+.navbar a{
+    color: #FFFFFF;
+    text-decoration: none; 
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: #1c1259;
+}
+
+.navbar li{
+    float: left;
+}

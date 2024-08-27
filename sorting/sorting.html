@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <title>Sorting Visualization</title>
+    <link rel="stylesheet" href="styleSorting.css"/> <!--css for sorting.html-->
+
+</head>
+<body>
+    <h1>Sorting Visualizer</h1>
+    <nav class="navbar">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="sorting.html">Sorting</a></li>
+            <li><a href="../trees/bst/bst.html">BST</a></li>
+        </ul>
+    </nav>
+    <br>
+    <div id="main">
+        <canvas id="myCanvas"></canvas>
+        <br>
+        <div>
+            <button onClick="init()">init</button>
+            <button onClick="bubbleSortPlay()">Bubble Sort</button>
+            <button onClick="insertionSortPlay()">Insertion Sort</button>
+            <button onClick="selectionSortPlay()">Selection Sort</button>
+            <button onClick="shellSortPlay()">Shell Sort</button>
+        </div>
+    </div>
+
+    <!--
+    <div>
+        <input type="button" value="Binary Search Tree" onclick="goToBST();">
+    </div>
+    -->
+
+    
+    <script src="../math.js"></script>
+    <script src="column.js"></script>
+    <script src="scriptSorting.js"></script> <!--將js寫在外面-->
+
+</body>
+
+</html>

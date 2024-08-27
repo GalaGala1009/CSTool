@@ -1,26 +1,16 @@
 <!DOCTYPE html>
 <head>
-    <title>Sorting Visualization</title>
-    <link rel="stylesheet" href="style.css"/> <!--將css寫在外面-->
-
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <h1>Sorting Visualizer</h1>
-    <canvas id="myCanvas"></canvas>
+    <h1>Home</h1>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sorting/sorting.html">Sorting</a></li>
+            <li><a href="trees/bst/bst.html">BST</a></li>
+        </ul>
+    </nav>
     
-    <hr>
-    <div>
-        <button onClick="init()">init</button>
-        <button onClick="bubbleSortPlay()">Bubble Sort</button>
-        <button onClick="insertionSortPlay()">Insertion Sort</button>
-        <button onClick="selectionSortPlay()">Selection Sort</button>
-        <button onClick="shellSortPlay()">Shell Sort</button>
-    </div>
-    
-    <script src="math.js"></script>
-    <script src="column.js"></script>
-    <script src="script.js"></script> <!--將js寫在外面-->
-
 </body>
-
-</html>
